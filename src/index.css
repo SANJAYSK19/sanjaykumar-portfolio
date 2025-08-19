@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reusable styles */
+.card { @apply bg-white/70 dark:bg-slate-800/70 backdrop-blur border border-slate-200/70 dark:border-slate-700/60 rounded-2xl p-6 shadow-soft; }
+.btn { @apply inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-300 dark:border-slate-600 hover:border-brand hover:text-brand transition; }
+.pill { @apply inline-block px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm mr-2 mb-2; }
+.section-title { @apply text-xl font-semibold mb-3; }
+.subtle { @apply text-slate-500 dark:text-slate-400; }
+.container { @apply max-w-5xl mx-auto px-4; }
+.hero { @apply rounded-2xl p-8 md:p-10 border border-slate-200 dark:border-slate-700 bg-gradient-to-br from-slate-50 to-white dark:from-slate-900 dark:to-slate-800; }
+.footer { @apply text-center text-sm text-slate-500 dark:text-slate-400 py-8; }
